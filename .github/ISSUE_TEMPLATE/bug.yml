@@ -1,0 +1,20 @@
+name: test
+description: ...
+title: "[bug]: "
+body:
+  - type: checkboxes
+    id: test
+    attributes:
+      label: try this checkbox
+      description: ....
+      options:
+        - label: "abc"
+          required: true
+        - label: "123"
+          required: true
+        - label: "中文"
+          required: true
+        - label: "123中文"
+          required: true
+        - label: "abc中文"
+          required: true
